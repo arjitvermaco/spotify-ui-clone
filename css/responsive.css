@@ -21,6 +21,10 @@
       .top-nav li a span{
         display: none;
       }
+
+      .song-card{
+        width: 30%;
+    }
 }
 
 
@@ -31,5 +35,7 @@
 /* Mobiles */
 @media screen and (max-width:576px){
    
-   
+    .song-card{
+        width: 45%;
+    }
 }
